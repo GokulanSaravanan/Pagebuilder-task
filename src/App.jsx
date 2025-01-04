@@ -123,7 +123,7 @@ function App() {
   const handleAddLabel = (blockId) => {
     const newLabel = {
       id: `text_${Date.now()}`,
-      type: "label",
+      type: "text",
       content: "Add Label",
       position: { top: 50, left: 110 },
       border: 15,
